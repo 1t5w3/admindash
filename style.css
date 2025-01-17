@@ -1,0 +1,86 @@
+
+ul {
+    list-style-type: none;
+    max-width: 200px;
+    
+}
+
+
+ul svg {
+    max-width: 2vw;
+    fill: white;
+    padding-right: 10px;
+
+}
+ul li {
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
+    
+}
+ul p {
+    color: white;
+    font-size: larger;
+    font-weight: 900;
+}
+ul hr {
+    margin: 20px auto;
+    width: 150px;
+    justify-content: left;
+}
+.left-bar {
+    background-color: #6a92a6;
+    grid-row: 1 / 3;
+    grid-column: 1 / 2;
+    font-size: 1rem;
+    padding-left: 10px;
+
+    color: #f0f0f0;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    
+
+}
+.right-panel {
+    position: relative;
+    color: #f0f0f0;
+    background-color: #313338;
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+
+    display: flex;
+    padding: 30px 24px;
+    grid-template-columns: 3fr 2fr;
+    gap: 16px;
+    
+
+    
+}
+.body {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    grid-template-columns: clamp(160px, 20%, 360px) 1fr;
+}
+.DashLogo {
+    padding-bottom: 1vw;
+    font-size: 30px;
+}
+.DashLogo svg {
+    min-width: 3vw;
+    margin-left: -2vw;
+}
+.searchbar {
+    margin-top: 0.5vw;
+    border-radius: 30px;
+    min-width: 50vw;
+    max-height: 3vw;
+
+
+}
+.magnify-logo {
+    max-width: 2vw;
+    fill: white;
+    padding-right: 10px;
+}
