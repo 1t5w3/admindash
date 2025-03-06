@@ -1,5 +1,3 @@
 # admindash
-something something
-idk
-something funny
-imagine if funny
+its an admin dashboard made with html css
+
